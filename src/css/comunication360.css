@@ -1,0 +1,123 @@
+* {
+    box-sizing:border-box;
+}
+
+.navigation-drawer {
+position: absolute;
+width: 256px;
+height: 646px;
+left: 8px;
+right: 1136px;
+top: 6px;
+bottom: 540px;
+border-bottom: 1px solid rgb(184, 192, 199);
+border-left: 1px solid rgb(184, 192, 199);
+border-right: 1px solid rgb(184, 192, 199);
+border-radius: 12px;
+box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.12);
+background: rgb(255, 255, 255);
+
+}
+
+.nav-item-prime {
+    padding:0;
+    margin:0;
+    width:254px;
+
+
+ li {
+     display:flex;
+     align-items:center;
+     justify-content:start;
+     background: rgb(255, 255, 255);
+     padding: 16px 0px 16px 16px;
+
+    a {
+
+        font-family: Open Sans;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        text-decoration:none;
+        color: rgb(11, 34, 53);
+        flex:1;
+    }
+    
+
+    img {
+        width: 24px;
+        height: 24px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 12px;
+    }
+ }
+
+}
+
+
+.frame28 {
+ width: 256px;
+ height: 130px;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ align-items: center;
+ padding: 0px 0px 24px 0px;
+
+   .headline {
+      width: 256px;
+      height: 56px;
+      padding: 8px 8px 8px 16px;
+      border-radius: 12px 12px 0px 0px;
+      background: rgb(15, 76, 219);
+
+       h1 {
+          color: rgb(248, 250, 252);
+          font-family: Open Sans;
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 24px;
+          letter-spacing: -1px;
+         }
+
+     }
+   .regular-button {
+     
+     margin:10px 0 0 0;
+     width: 224px;
+     height: 40px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 12px 16px 12px 16px;
+     box-sizing: border-box;
+     border: 1px solid rgb(15, 76, 219);
+     border-radius: 4px;
+     background: rgb(255, 255, 255);
+ 
+         img{
+             
+             width: 16px;
+             height: 16px;
+             
+         }
+         h1 {
+             
+              width: 123px;
+              height: 16px;            
+              margin: 0px 8px;
+              color: rgb(15, 76, 219);
+              font-family: Open Sans;
+              font-size: 16px;
+              font-weight: 600;
+              line-height: 16px;
+              text-align: center;
+             
+         }  
+ }
+ 
+}
+
+
