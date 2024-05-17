@@ -24,6 +24,7 @@
     padding: 8px 8px 8px 16px;
     border-radius: 12px 12px 0px 0px;
     background: rgb(15, 76, 219);
+    
 
     h1 {
         color: rgb(248, 250, 252);
@@ -32,6 +33,7 @@
         font-weight: 700;
         line-height: 24px;
         letter-spacing: -1px;
+        margin:10px 0;
     }
 }
 .history-details {
@@ -119,4 +121,128 @@
     padding: 0px;
     border: 1px solid rgb(184, 192, 199);
     background: rgb(255, 255, 255);
+}
+
+    .list-quantity {
+        width: 149px;
+        height: 36px;
+        padding: 8px 24px 8px 0px;
+          h2 {
+               color: rgb(88, 99, 112);
+               font-family: Open Sans;
+               font-size: 14px;
+               font-weight: 400;
+               line-height: 20px;
+               letter-spacing: 0px;
+               text-align: center;
+            }
+    }
+
+
+.history-table-header {
+    ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1111px;
+    height: 48px;
+    padding: 12px 24px 12px 24px;
+    margin:0;
+
+     li {
+        display:flex;
+        align-items:center;
+        span {
+            /* position:relative; */
+            color: rgb(11, 34, 53);
+            font-family: Open Sans;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+        }
+
+        img {
+           /* position: absolute; */
+           width: 15.15px;
+           height: 19.15px;
+           margin-left:7px;
+           /* left: 55%;
+           top: 10.08%;
+           bottom: 10.13%; */
+        }
+        input {
+            width:18px;
+            height:18px;
+        }
+    }
+
+
+
+    }
+}
+#checkbox {
+    width:24px;
+    height:24px;
+}
+#name-subject {
+    width:240px;
+}
+#message-type {
+    width:140px;
+    justify-content:center;
+}
+#channel {
+    width:112px;
+    justify-content:space-around;;
+}
+#recipients {
+    width:100px;
+}
+#date-sent {
+    width:200px;
+}
+#view-summary {
+    width:120px;
+    justify-content:center;
+}
+
+.history-table-list-item ul:nth-child(odd){
+
+    background: rgb(248, 250, 252);
+}
+.history-table-list-item ul {
+
+    width: 1111px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgb(184, 192, 199);
+    margin:0;
+        
+    li {
+        display:flex;
+        align-items:center;
+
+        input {
+            width:18px;
+            height:18px;
+        }
+        span {
+            color: rgb(11, 34, 53);
+            font-family: Open Sans;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: left;
+        }
+
+    }
+    
 }
