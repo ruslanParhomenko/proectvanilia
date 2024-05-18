@@ -16,6 +16,7 @@
     border-right: 1px solid rgb(184, 192, 199);
     border-radius: 12px 12px 0px 0px;
     background: rgb(255, 255, 255);
+    padding:0 0 12px 0;
 }
 
 .history-headline {
@@ -48,6 +49,7 @@
         font-size: 14px;
         font-weight: 400;
         line-height: 20px;
+        margin:0;
     }
 }
 
@@ -65,9 +67,14 @@
 .action-bar-search-filter {
     display:flex;
     align-items: center;
+    button {
+        background:transparent;
+        border:none;
+        cursor:pointer;
+    }
 
     input {
-        box-sizing: border-box;
+        /* box-sizing: border-box; */
         border: 1px solid rgb(184, 192, 199);
         border-radius: 4px;
         background: rgb(255, 255, 255);
@@ -87,7 +94,7 @@
         justify-content: flex-start;
         align-items: center;
         padding: 12px 24px 12px 24px;
-        box-sizing: border-box;
+        /* box-sizing: border-box; */
         border-top: 1px solid rgb(223, 227, 231);
 
         li {
@@ -112,21 +119,22 @@
 }
 
 .history-table-list {
-    width: 1111px;
+    /* width: 1111px; */
     height: 868px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-end;
+    /* align-items: flex-end; */
     padding: 0px;
-    border: 1px solid rgb(184, 192, 199);
-    background: rgb(255, 255, 255);
+    border-top: 1px solid rgb(184, 192, 199);
+    /* background: rgb(255, 255, 255); */
 }
 
     .list-quantity {
         width: 149px;
         height: 36px;
         padding: 8px 24px 8px 0px;
+        margin-left:auto;
           h2 {
                color: rgb(88, 99, 112);
                font-family: Open Sans;
@@ -135,6 +143,7 @@
                line-height: 20px;
                letter-spacing: 0px;
                text-align: center;
+               margin:0;
             }
     }
 
@@ -207,22 +216,31 @@
 #view-summary {
     width:120px;
     justify-content:center;
+    button {
+        background:transparent;
+        border:none;
+        cursor:pointer;
+    }
 }
 
 .history-table-list-item ul:nth-child(odd){
 
     background: rgb(248, 250, 252);
 }
+.history-table-list-item ul:nth-child(even){
+
+    background: rgb(255, 255, 255);
+}
 .history-table-list-item ul {
 
-    width: 1111px;
+    width: 100%;
     height: 80px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 24px;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     border-bottom: 1px solid rgb(184, 192, 199);
     margin:0;
         
@@ -245,4 +263,32 @@
 
     }
     
+}
+
+.history-pages {
+    ul {
+        width: 100%;
+        height: 68px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        padding: 24px 24px 12px 24px;
+        margin:0;
+
+        li {
+            display:inline-block;
+            button {
+                width:32px;
+                height:32px;
+                background:transparent;
+                border:none;
+                cursor:pointer;
+            }
+        }
+        li:hover {
+            button {
+                background: rgb(248, 250, 252);
+            }
+        }
+    }
 }
