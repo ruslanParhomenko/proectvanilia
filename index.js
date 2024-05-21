@@ -4,8 +4,16 @@ const openHistory = ['#communication360-messaging-history','#section-mesaging','
 
 document.querySelector('.navigation-drawer').addEventListener('click',(e) => {
     e.preventDefault()
-    // e.stopPropagation()
+    e.stopPropagation()
 
     openListBroadcast(e.target,...openHistory)
+
+})
+
+const openMessaging = ['#communication360-messaging','#messaging-list','messaging-list']
+document.querySelector('.navigation-drawer').addEventListener('click', (e) => {
+
+    openListBroadcast(e.target,...openMessaging)
+
 
 })
