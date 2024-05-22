@@ -1,0 +1,742 @@
+[
+    {
+        "id": 1,
+        "name": "Sample Message Name Sample",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": true,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "0000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 2,
+        "name": "Sample Message Name Sample",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "0000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 3,
+        "name": "Sample Message Name Sample",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "0000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 4,
+        "name": "Sample Message Name Sample",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "0000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 5,
+        "name": "Sample Message Name Sample",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "0000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 6,
+        "name": "Sample Message Name Sample",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "0000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 7,
+        "name": "Sample Message Name Sample",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "0000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 8,
+        "name": "Sample Message Name Sample",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "0000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 9,
+        "name": "Sample Message Name Sample",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "0000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 10,
+        "name": "Sample Message Name Sample",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "0000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 11,
+        "name": "Sample Message Name Sample",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "0000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 12,
+        "name": "Sample Message Name Sample",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "0000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 13,
+        "name": "Sample Message Name Sample",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "0000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 14,
+        "name": "Sample Message Name Sample",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "0000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 15,
+        "name": "Sample Message Name Sample",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "0000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 16,
+        "name": "Sample Message Name Sample",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "0000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 17,
+        "name": "Sample Message Name Sample",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "0000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 18,
+        "name": "Sample Message Name Sample",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "0000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 19,
+        "name": "Sample Message Name Sample",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "0000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 20,
+        "name": "Sample Message Name Sample",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "0000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    }
+]
