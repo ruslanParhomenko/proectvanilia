@@ -11,6 +11,7 @@ const dataLink ='data-link'
 const broadcastList = document.querySelector('.nav-item-prime')
 
 broadcastList.addEventListener('click', (e)=>{
+    e.preventDefault()
     
     switch(e.target.getAttribute(dataA)){
         case '1':{
