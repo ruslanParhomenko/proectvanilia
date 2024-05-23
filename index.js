@@ -1,34 +1,87 @@
 // open list Broadcast, list History
 
 const historySection = document.querySelector('#section-mesaging')
-const messagingUl = document.querySelector('#messaging-list')
-
-const listUlBroadcoast = document.querySelectorAll('.nav-item-prime')
+const messagingUl = document.querySelector('.messaging-list')
 
 const openList = 'open-list'
 const vectorUpDown = 'transform-vector'
 const dataA = 'data-a'
-const dataLi = 'data-li'
+const dataLink ='data-link'
 
-listUlBroadcoast.forEach(el => console.log(el.addEventListener('click', (e)=> {
-    e.preventDefault()
-    let event = e.target
+const broadcastList = document.querySelector('.nav-item-prime')
+
+broadcastList.addEventListener('click', (e)=>{
     
-    if((+event.getAttribute(dataLi) || +event.getAttribute(dataA)) === 2) {
-        document.querySelector('#vector-2').classList.toggle(vectorUpDown)
-        messagingUl.classList.toggle(openList)
+    switch(e.target.getAttribute(dataA)){
+        case '1':{
+            history.pushState(null,null,e.target.getAttribute(dataLink))
+            historySection.classList.remove(openList)
+        }
+        break
+        case '2':{
+            history.pushState(null,null,e.target.getAttribute(dataLink))
+            document.querySelector('#vector-2').classList.toggle(vectorUpDown)
+            messagingUl.classList.toggle(openList)
+        }
+        break
+        case '21':{
+            historySection.classList.remove(openList)
+            history.pushState(null,null,e.target.getAttribute(dataLink))
+        }
+        break
+        case '22':{
+            historySection.classList.remove(openList)
+            history.pushState(null,null,e.target.getAttribute(dataLink))
+        }
+        break
+        case '23':{
+            historySection.classList.remove(openList)
+            history.pushState(null,null,e.target.getAttribute(dataLink))
+        }
+        break
+        case '24':{
+            history.pushState(null,null,e.target.getAttribute(dataLink))
+            historySection.classList.toggle(openList)
+        }
+        break
+        case '3':{
+            history.pushState(null,null,e.target.getAttribute(dataLink))
+            historySection.classList.remove(openList)
+        }
+        break
+        case '4':{
+            history.pushState(null,null,e.target.getAttribute(dataLink))
+            historySection.classList.remove(openList)
+        }
+        break
+        case '5':{
+            history.pushState(null,null,e.target.getAttribute(dataLink))
+            historySection.classList.remove(openList)
+        }
+        break
     }
-    if((+event.getAttribute(dataLi) || +event.getAttribute(dataA)) === 24 ) {
-        historySection.classList.toggle(openList)
-    }
+})    
+    
 
-})))
-
-
-// add html json list to history component
+// add html json list to history component and pages
 
 import arrHistoryList from './history-list-arr.json'
 
+// pages
+
+const pagesDiv = document.querySelector('#list-page')
+// console.log(pagesDiv)
+
+for(let i = 0;i<=arrHistoryList.length;i++){
+    const buttonLi = createTagId('button','type','button')
+    buttonLi.innerText = 1 + i
+    pagesDiv.append(buttonLi)    
+}
+
+
+
+
+// history list
 const htmlDivHistoryList = document.querySelector('.history-table-list-item')
 let startList = 0
 let finishList = 10

@@ -267,18 +267,29 @@
 }
 
 .history-pages {
-    ul {
-        width: 100%;
-        height: 68px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:68px;
+    width:100%;
+    button {
+        width:32px;
+        height:32px;
+        background:transparent;
+        border:none;
+        cursor:pointer;
+    }
+    #list-page {
+        /* width: 100%; */
+        /* height: 68px; */
         display:flex;
         justify-content:center;
         align-items:center;
         padding: 24px 24px 12px 24px;
         margin:0;
         
-        li {
+        button {
             display:inline-block;
-            button {
                 width:32px;
                 height:32px;
                 background:transparent;
@@ -286,13 +297,13 @@
                 cursor:pointer;
             }
         }
-        li:hover {
+        button:hover {
             button {
                 background: rgb(248, 250, 252);
             }
         }
     }
-}
+
 
 
 
