@@ -12,6 +12,9 @@ export function pageHistoryList () {
     const vectorPageForward = document.querySelector('#vector-forward')
     const vectorPageBack = document.querySelector('#vector-back')
 
+
+    
+
     function vector (i) {
         let paramts = new URLSearchParams(window.location.search)
         if(paramts.get('id')){
@@ -31,10 +34,12 @@ export function pageHistoryList () {
             }
         }
     }
+    
 
     vectorPageBack.addEventListener('click',()=>vector(-1))
     vectorPageForward.addEventListener('click',()=>vector(1))
     pagesDiv.addEventListener('click',(e)=>{
+        
         const paramts = new URLSearchParams(window.location.search)
         paramts.delete('id')
         switch(e.target.innerText){
@@ -59,7 +64,7 @@ export function pageHistoryList () {
     // let numPage = window.location.search.substring(1).split('=')[1]
     const paramts = new URLSearchParams(window.location.search)
     const numPage = paramts.get('page')
-    console.log(numPage)
+    
 
     switch(+numPage) {
         case +finishList:

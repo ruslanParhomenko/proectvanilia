@@ -8,6 +8,7 @@ let arrPages = []
 
 for(let i = 1;i<=finishList;i++){
     const buttonLi = createTagId('button','type','button')
+    // buttonLi.setAttribute('class','page-list-num')
     buttonLi.innerText = i
     arrPages.push(buttonLi)   
 }

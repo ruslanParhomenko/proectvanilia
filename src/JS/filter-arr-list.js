@@ -14,7 +14,6 @@ if (paramts.get('search')) {
 historyListHtml(arrHistoryList,searchValue)
 
 export function filterArr () {
-    console.log(paramts.get('search'))
     let inputValue = paramts.get('search') ?? ''
     inputSearch.setAttribute('value',inputValue)
 

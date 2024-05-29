@@ -7,8 +7,6 @@ import { createTagId } from "./createTegId"
 
 export function historyListHtml (arrHistory,searchValue)  {
 
-    console.log(searchValue)
-
     const totalItem = document.querySelector('.list-quantity')
     const htmlDivHistoryList = document.querySelector('.history-table-list-item')
     // const numPage = window.location.search.substring(1).split('=')[1]
@@ -16,8 +14,6 @@ export function historyListHtml (arrHistory,searchValue)  {
     const numPage = paramts.get('page')
 
     const arrHistoryList = searchValue ? arrHistory.filter(item => item.name === searchValue) : arrHistory
-
-    console.log(arrHistoryList)
 
     totalItem.innerText = `${arrHistoryList.length} Item(s) in Total`
     let item = 0
