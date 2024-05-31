@@ -6,13 +6,16 @@ import mesagingHistory from './src/component/mesaging-history.html?raw';
 
 
 
-
-
-
-
 document.querySelector('#app').innerHTML = `
 ${htmlComunication360}
 ${mesagingHistory}
   
 `
+
+
+
+
+
+
+
 

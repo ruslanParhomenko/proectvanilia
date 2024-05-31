@@ -1,4 +1,4 @@
-<section class="mesaging-history-item">
+<section id="section-mesaging" class="mesaging-history-item">
     <header>
         <div class="history-headline">
             <h1>History</h1>
@@ -17,21 +17,21 @@
                 </button>
             </div>
             <div class="action-bar-search-filter">
-                <input  type="search">
+                <input id="search-list"  type="search" >
                 <button type="button">
                     <img src="/img/icon-filter.svg" alt="">
                 </button>
             </div>
         </div>
         <div class="history-filteres">
-            <li>Message Type</li>
-            <li><input type="checkbox" name="" id="">Automatic</li>
-            <li><input type="checkbox" name="" id="">Broadcast</li>
-            <li><input type="checkbox" name="" id="">Emergency</li>
+            <span>Message Type</span>
+            <li><input type="checkbox" data-name="Automatic" id="automatic"><label for="automatic">Automatic</label></li>
+            <li><input type="checkbox" data-name="Broadcast" id="broadcast"><label for="broadcast">Broadcast<label</li>
+            <li><input type="checkbox" data-name="Emergency" id="emergency"><label for="emergency">Emergency</label></li>
         </div>
     </header>
     <div class="history-table-list">
-        <div class="list-quantity"><h2>296 Item(s) in Total</h2></div>
+        <div class="list-quantity"></div>
         
             <div class="history-table-header">
                 <ul>
@@ -44,155 +44,11 @@
                 <li id="view-summary"><span>View Summary</span></li>
                 </ul>
             </div>
-            <div class="history-table-list-item">
-                <ul>
-                    <li id="checkbox"><input type="checkbox"></li>
-                    <li id="name-subject"><span>Sample Message Name Sample</span></li>
-                    <li id="message-type"><span>Broadcast</span></li>
-                    <li id="channel">
-                        <img src="/img/vector-phone.svg" alt="">
-                        <img src="/img/vector-sms.svg" alt="">
-                        <img src="/img/vector-mail.svg" alt="">
-                    </li>
-                    <li id="recipients"><span>000000</span></li>
-                    <li id="date-sent"><span>Jan 01, 2024 12:00am</span></li>
-                    <li id="view-summary"><button><img src="/img/vector-list-item.svg" alt=""></button></li>
-                </ul>
-                <ul>
-                    <li id="checkbox"><input type="checkbox"></li>
-                    <li id="name-subject"><span>Sample Message Name Sample</span></li>
-                    <li id="message-type"><span>Broadcast</span></li>
-                    <li id="channel">
-                        <img src="/img/vector-phone.svg" alt="">
-                        <!-- <img src="/img/vector-sms.svg" alt=""> -->
-                        <img src="/img/vector-mail.svg" alt="">
-                    </li>
-                    <li id="recipients"><span>000000</span></li>
-                    <li id="date-sent"><span>Jan 01, 2024 12:00am</span></li>
-                    <li id="view-summary"><button><img src="/img/vector-list-item.svg" alt=""></button></li>
-                </ul>
-                <ul>
-                    <li id="checkbox"><input type="checkbox"></li>
-                    <li id="name-subject"><span>Sample Message Name Sample</span></li>
-                    <li id="message-type"><span>Broadcast</span></li>
-                    <li id="channel">
-                        <img src="/img/vector-phone.svg" alt="">
-                        <!-- <img src="/img/vector-sms.svg" alt=""> -->
-                        <img src="/img/vector-mail.svg" alt="">
-                    </li>
-                    <li id="recipients"><span>000000</span></li>
-                    <li id="date-sent"><span>Jan 01, 2024 12:00am</span></li>
-                    <li id="view-summary"><button><img src="/img/vector-list-item.svg" alt=""></button></li>
-                </ul>
-                <ul>
-                    <li id="checkbox"><input type="checkbox"></li>
-                    <li id="name-subject"><span>Sample Message Name Sample</span></li>
-                    <li id="message-type"><span>Broadcast</span></li>
-                    <li id="channel">
-                        <img src="/img/vector-phone.svg" alt="">
-                        <img src="/img/vector-sms.svg" alt="">
-                        <img src="/img/vector-mail.svg" alt="">
-                    </li>
-                    <li id="recipients"><span>000000</span></li>
-                    <li id="date-sent"><span>Jan 01, 2024 12:00am</span></li>
-                    <li id="view-summary"><button><img src="/img/vector-list-item.svg" alt=""></button></li>
-                </ul>
-                <ul>
-                    <li id="checkbox"><input type="checkbox"></li>
-                    <li id="name-subject"><span>Sample Message Name Sample</span></li>
-                    <li id="message-type"><span>Broadcast</span></li>
-                    <li id="channel">
-                        <img src="/img/vector-phone.svg" alt="">
-                        <img src="/img/vector-sms.svg" alt="">
-                        <img src="/img/vector-mail.svg" alt="">
-                    </li>
-                    <li id="recipients"><span>000000</span></li>
-                    <li id="date-sent"><span>Jan 01, 2024 12:00am</span></li>
-                    <li id="view-summary"><button><img src="/img/vector-list-item.svg" alt=""></button></li>
-                </ul>
-                <ul>
-                    <li id="checkbox"><input type="checkbox"></li>
-                    <li id="name-subject"><span>Sample Message Name Sample</span></li>
-                    <li id="message-type"><span>Broadcast</span></li>
-                    <li id="channel">
-                        <img src="/img/vector-phone.svg" alt="">
-                        <!-- <img src="/img/vector-sms.svg" alt=""> -->
-                        <img src="/img/vector-mail.svg" alt="">
-                    </li>
-                    <li id="recipients"><span>000000</span></li>
-                    <li id="date-sent"><span>Jan 01, 2024 12:00am</span></li>
-                    <li id="view-summary"><button><img src="/img/vector-list-item.svg" alt=""></button></li>
-                </ul>
-                <ul>
-                    <li id="checkbox"><input type="checkbox"></li>
-                    <li id="name-subject"><span>Sample Message Name Sample</span></li>
-                    <li id="message-type"><span>Broadcast</span></li>
-                    <li id="channel">
-                        <!-- <img src="/img/vector-phone.svg" alt=""> -->
-                        <img src="/img/vector-sms.svg" alt="">
-                        <img src="/img/vector-mail.svg" alt="">
-                    </li>
-                    <li id="recipients"><span>000000</span></li>
-                    <li id="date-sent"><span>Jan 01, 2024 12:00am</span></li>
-                    <li id="view-summary"><button><img src="/img/vector-list-item.svg" alt=""></button></li>
-                </ul>
-                <ul>
-                    <li id="checkbox"><input type="checkbox"></li>
-                    <li id="name-subject"><span>Sample Message Name Sample</span></li>
-                    <li id="message-type"><span>Broadcast</span></li>
-                    <li id="channel">
-                        <img src="/img/vector-phone.svg" alt="">
-                        <!-- <img src="/img/vector-sms.svg" alt=""> -->
-                        <img src="/img/vector-mail.svg" alt="">
-                    </li>
-                    <li id="recipients"><span>000000</span></li>
-                    <li id="date-sent"><span>Jan 01, 2024 12:00am</span></li>
-                    <li id="view-summary"><button><img src="/img/vector-list-item.svg" alt=""></button></li>
-                </ul>
-                <ul>
-                    <li id="checkbox"><input type="checkbox"></li>
-                    <li id="name-subject"><span>Sample Message Name Sample</span></li>
-                    <li id="message-type"><span>Broadcast</span></li>
-                    <li id="channel">
-                        <!-- <img src="/img/vector-phone.svg" alt=""> -->
-                        <!-- <img src="/img/vector-sms.svg" alt=""> -->
-                        <img src="/img/vector-mail.svg" alt="">
-                    </li>
-                    <li id="recipients"><span>000000</span></li>
-                    <li id="date-sent"><span>Jan 01, 2024 12:00am</span></li>
-                    <li id="view-summary"><button><img src="/img/vector-list-item.svg" alt=""></button></li>
-                </ul>
-                <ul>
-                    <li id="checkbox"><input type="checkbox"></li>
-                    <li id="name-subject"><span>Sample Message Name Sample</span></li>
-                    <li id="message-type"><span>Broadcast</span></li>
-                    <li id="channel">
-                        <img src="/img/vector-phone.svg" alt="">
-                        <!-- <img src="/img/vector-sms.svg" alt=""> -->
-                        <!-- <img src="/img/vector-mail.svg" alt=""> -->
-                    </li>
-                    <li id="recipients"><span>000000</span></li>
-                    <li id="date-sent"><span>Jan 01, 2024 12:00am</span></li>
-                    <li id="view-summary"><button><img src="/img/vector-list-item.svg" alt=""></button></li>
-                </ul>
-
-
-            </div>
+            <div class="history-table-list-item"></div>
             <div class="history-pages">
-                <ul>
-                    <li><button type="button"><img src="/public/img/vector-back.svg" alt=""></button></li>
-                    <li><button type="button">1</button></li>
-                    <li><button type="button">2</button></li>
-                    <li><button type="button">3</button></li>
-                    <li><button type="button">4</button></li>
-                    <li><button type="button">5</button></li>
-                    <li><button type="button">6</button></li>
-                    <li><button type="button">7</button></li>
-                    <li><button type="button">8</button></li>
-                    <li><button type="button">9</button></li>
-                    <li><button type="button">10</button></li>
-                    <li><button type="button"><img src="/public/img/vector-forward.svg" alt=""></button></li>
-                </ul>
+                 <button id="vector-back" type="button"><img src="/img/vector-back.svg" alt="back"></button>
+                 <div id="list-page"></div>
+                <button id="vector-forward" type="button"><img src="/img/vector-forward.svg" alt=""></button> 
             </div>
         
     </div>
