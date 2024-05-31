@@ -1,20 +1,10 @@
 
-import arrHistoryList from '../../history-list-arr.json'
-import {historyListHtml} from './history-list-arr'
-const inputSearch = document.querySelector('#search-list')
-
-
-const paramts = new URLSearchParams(window.location.search)
-let searchValue = ''
-if (paramts.get('search')) {
-    searchValue = paramts.get('search')
-}
-
-
-historyListHtml(arrHistoryList,searchValue)
-
+  
 export function filterArr () {
-    console.log(paramts.get('search'))
+        
+    const inputSearch = document.querySelector('#search-list')
+    const paramts =new URLSearchParams(window.location.search)
+
     let inputValue = paramts.get('search') ?? ''
     inputSearch.setAttribute('value',inputValue)
 
@@ -26,8 +16,6 @@ export function filterArr () {
             window.location.search = paramtsId   
         }
     })
-
-    
 }
     
 

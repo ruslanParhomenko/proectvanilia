@@ -1,13 +1,9 @@
 import { numbering1, numbering2, numbering3 } from "./numbering-page"
-
 import { finishList } from "./numbering-page"
-
-
 
 export function pageHistoryList () {
 
     const midlPage = +finishList / 2
-
     const pagesDiv = document.querySelector('#list-page')
     const vectorPageForward = document.querySelector('#vector-forward')
     const vectorPageBack = document.querySelector('#vector-back')
@@ -56,10 +52,8 @@ export function pageHistoryList () {
         }
         })
 
-    // let numPage = window.location.search.substring(1).split('=')[1]
     const paramts = new URLSearchParams(window.location.search)
     const numPage = paramts.get('page')
-    console.log(numPage)
 
     switch(+numPage) {
         case +finishList:
@@ -78,6 +72,6 @@ export function pageHistoryList () {
         numbering1(pagesDiv)
         }
         break
-        }
+    }
 
 }

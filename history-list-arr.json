@@ -2,21 +2,7 @@
     {
         "id": 1,
         "name": "simion",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": true,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Automatic",
         "channel":[
             {
                 "cheked": true,
@@ -39,21 +25,7 @@
     {
         "id": 2,
         "name": "adrei",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": true,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Automatic",
         "channel":[
             {
                 "cheked": false,
@@ -76,21 +48,7 @@
     {
         "id": 3,
         "name": "ion",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": true,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Automatic",
         "channel":[
             {
                 "cheked": false,
@@ -113,21 +71,7 @@
     {
         "id": 4,
         "name": "vitea",
-        "messageType":[
-            {
-                "cheked": true,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": false,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Broadcast",
         "channel":[
             {
                 "cheked": false,
@@ -150,21 +94,7 @@
     {
         "id": 5,
         "name": "jenea",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": false,
-                "item":"Automatic"
-            },
-            {
-                "cheked": true,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Emergency",
         "channel":[
             {
                 "cheked": false,
@@ -187,21 +117,7 @@
     {
         "id": 6,
         "name": "jenea",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": true,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Automatic",
         "channel":[
             {
                 "cheked": false,
@@ -224,21 +140,7 @@
     {
         "id": 7,
         "name": "jenea",
-        "messageType":[
-            {
-                "cheked": true,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": false,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Broadcast",
         "channel":[
             {
                 "cheked": false,
@@ -261,21 +163,7 @@
     {
         "id": 8,
         "name": "oleg",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": true,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Automatic",
         "channel":[
             {
                 "cheked": false,
@@ -298,21 +186,7 @@
     {
         "id": 9,
         "name": "anna",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": false,
-                "item":"Automatic"
-            },
-            {
-                "cheked": true,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Emergency",
         "channel":[
             {
                 "cheked": false,
@@ -335,21 +209,7 @@
     {
         "id": 10,
         "name": "anna",
-        "messageType":[
-            {
-                "cheked": true,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": false,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Broadcast",
         "channel":[
             {
                 "cheked": false,
@@ -372,21 +232,7 @@
     {
         "id": 11,
         "name": "anna",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": true,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Automatic",
         "channel":[
             {
                 "cheked": false,
@@ -409,21 +255,7 @@
     {
         "id": 12,
         "name": "anna",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": true,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Automatic",
         "channel":[
             {
                 "cheked": false,
@@ -446,21 +278,7 @@
     {
         "id": 13,
         "name": "anna",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": true,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Automatic",
         "channel":[
             {
                 "cheked": false,
@@ -483,21 +301,7 @@
     {
         "id": 14,
         "name": "anna",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": true,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Automatic",
         "channel":[
             {
                 "cheked": false,
@@ -520,21 +324,7 @@
     {
         "id": 15,
         "name": "annastasia",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": true,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Automatic",
         "channel":[
             {
                 "cheked": false,
@@ -557,21 +347,7 @@
     {
         "id": 16,
         "name": "annastasia",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": true,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Automatic",
         "channel":[
             {
                 "cheked": true,
@@ -594,21 +370,7 @@
     {
         "id": 17,
         "name": "annastasia",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": false,
-                "item":"Automatic"
-            },
-            {
-                "cheked": true,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Emergency",
         "channel":[
             {
                 "cheked": false,
@@ -631,21 +393,7 @@
     {
         "id": 18,
         "name": "annastasia",
-        "messageType":[
-            {
-                "cheked": true,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": false,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Broadcast",
         "channel":[
             {
                 "cheked": false,
@@ -668,21 +416,7 @@
     {
         "id": 19,
         "name": "annastasia",
-        "messageType":[
-            {
-                "cheked": true,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": false,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Broadcast",
         "channel":[
             {
                 "cheked": true,
@@ -705,21 +439,7 @@
     {
         "id": 20,
         "name": "annastasia",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": true,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Automatic",
         "channel":[
             {
                 "cheked": false,
@@ -742,21 +462,7 @@
     {
         "id": 21,
         "name": "annastasia",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": false,
-                "item":"Automatic"
-            },
-            {
-                "cheked": true,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Emergency",
         "channel":[
             {
                 "cheked": true,
@@ -779,21 +485,7 @@
     {
         "id": 22,
         "name": "annastasia",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": true,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Automatic",
         "channel":[
             {
                 "cheked": true,
@@ -816,21 +508,7 @@
     {
         "id": 23,
         "name": "annastasia",
-        "messageType":[
-            {
-                "cheked": true,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": false,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Broadcast",
         "channel":[
             {
                 "cheked": false,
@@ -853,21 +531,7 @@
     {
         "id": 24,
         "name": "annastasia",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": false,
-                "item":"Automatic"
-            },
-            {
-                "cheked": true,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Emergency",
         "channel":[
             {
                 "cheked": false,
@@ -890,21 +554,7 @@
     {
         "id": 25,
         "name": "liza",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": true,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Automatic",
         "channel":[
             {
                 "cheked": false,
@@ -927,21 +577,7 @@
     {
         "id": 26,
         "name": "liza",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": true,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Automatic",
         "channel":[
             {
                 "cheked": false,
@@ -964,21 +600,7 @@
     {
         "id": 27,
         "name": "liza",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": true,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Automatic",
         "channel":[
             {
                 "cheked": false,
@@ -1001,21 +623,7 @@
     {
         "id": 28,
         "name": "liza",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": true,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Automatic",
         "channel":[
             {
                 "cheked": true,
@@ -1038,21 +646,7 @@
     {
         "id": 29,
         "name": "liza",
-        "messageType":[
-            {
-                "cheked": true,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": false,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Broadcast",
         "channel":[
             {
                 "cheked": false,
@@ -1075,21 +669,7 @@
     {
         "id": 30,
         "name": "liza",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": true,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Automatic",
         "channel":[
             {
                 "cheked": false,
@@ -1112,21 +692,7 @@
     {
         "id": 31,
         "name": "liza",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": true,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Automatic",
         "channel":[
             {
                 "cheked": false,
@@ -1149,21 +715,7 @@
     {
         "id": 32,
         "name": "liza",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": true,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Automatic",
         "channel":[
             {
                 "cheked": false,
@@ -1186,21 +738,7 @@
     {
         "id": 33,
         "name": "caterina",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": false,
-                "item":"Automatic"
-            },
-            {
-                "cheked": true,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Emergency",
         "channel":[
             {
                 "cheked": false,
@@ -1223,21 +761,7 @@
     {
         "id": 34,
         "name": "caterina",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": false,
-                "item":"Automatic"
-            },
-            {
-                "cheked": true,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Emergency",
         "channel":[
             {
                 "cheked": false,
@@ -1260,21 +784,7 @@
     {
         "id": 35,
         "name": "caterina",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": true,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Automatic",
         "channel":[
             {
                 "cheked": false,
@@ -1297,21 +807,7 @@
     {
         "id": 36,
         "name": "caterina",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": true,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Automatic",
         "channel":[
             {
                 "cheked": false,
@@ -1334,21 +830,7 @@
     {
         "id": 37,
         "name": "caterina",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": false,
-                "item":"Automatic"
-            },
-            {
-                "cheked": true,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Emergency",
         "channel":[
             {
                 "cheked": false,
@@ -1371,21 +853,7 @@
     {
         "id": 38,
         "name": "caterina",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": true,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Automatic",
         "channel":[
             {
                 "cheked": false,
@@ -1408,21 +876,7 @@
     {
         "id": 39,
         "name": "caterina",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": true,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Automatic",
         "channel":[
             {
                 "cheked": false,
@@ -1445,21 +899,7 @@
     {
         "id": 40,
         "name": "caterina",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": true,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Automatic",
         "channel":[
             {
                 "cheked": false,
@@ -1482,21 +922,7 @@
     {
         "id": 41,
         "name": "caterina",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": true,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Automatic",
         "channel":[
             {
                 "cheked": false,
@@ -1519,21 +945,7 @@
     {
         "id": 42,
         "name": "alex",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": true,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Automatic",
         "channel":[
             {
                 "cheked": false,
@@ -1556,21 +968,7 @@
     {
         "id": 43,
         "name": "alex",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": true,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Automatic",
         "channel":[
             {
                 "cheked": false,
@@ -1593,21 +991,7 @@
     {
         "id": 44,
         "name": "alex",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": true,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Automatic",
         "channel":[
             {
                 "cheked": false,
@@ -1630,21 +1014,7 @@
     {
         "id": 45,
         "name": "alex",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": true,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Automatic",
         "channel":[
             {
                 "cheked": false,
@@ -1667,21 +1037,7 @@
     {
         "id": 46,
         "name": "alex",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": true,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Automatic",
         "channel":[
             {
                 "cheked": false,
@@ -1704,21 +1060,7 @@
     {
         "id": 47,
         "name": "mihail",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": true,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Automatic",
         "channel":[
             {
                 "cheked": false,
@@ -1741,21 +1083,7 @@
     {
         "id": 48,
         "name": "mihail",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": true,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Automatic",
         "channel":[
             {
                 "cheked": false,
@@ -1778,21 +1106,7 @@
     {
         "id": 49,
         "name": "mihail",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": true,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Automatic",
         "channel":[
             {
                 "cheked": false,
@@ -1815,21 +1129,7 @@
     {
         "id": 50,
         "name": "mihail",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": true,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Automatic",
         "channel":[
             {
                 "cheked": false,
@@ -1852,21 +1152,7 @@
     {
         "id": 51,
         "name": "mihail",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": true,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Automatic",
         "channel":[
             {
                 "cheked": false,
@@ -1889,21 +1175,7 @@
     {
         "id": 52,
         "name": "mihail",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": true,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Automatic",
         "channel":[
             {
                 "cheked": false,
@@ -1926,21 +1198,7 @@
     {
         "id": 53,
         "name": "mihail",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": true,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Automatic",
         "channel":[
             {
                 "cheked": false,
@@ -1963,21 +1221,7 @@
     {
         "id": 54,
         "name": "mihail",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": true,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Automatic",
         "channel":[
             {
                 "cheked": false,
@@ -2000,21 +1244,7 @@
     {
         "id": 55,
         "name": "mihail",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": true,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Automatic",
         "channel":[
             {
                 "cheked": false,
@@ -2037,21 +1267,7 @@
     {
         "id": 56,
         "name": "mihail",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": true,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Automatic",
         "channel":[
             {
                 "cheked": false,
@@ -2074,21 +1290,7 @@
     {
         "id": 57,
         "name": "mihail",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": true,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Automatic",
         "channel":[
             {
                 "cheked": false,
@@ -2111,21 +1313,7 @@
     {
         "id": 58,
         "name": "ruslan",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": true,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Automatic",
         "channel":[
             {
                 "cheked": false,
@@ -2148,21 +1336,7 @@
     {
         "id": 59,
         "name": "ruslan",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": true,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Automatic",
         "channel":[
             {
                 "cheked": false,
@@ -2185,21 +1359,7 @@
     {
         "id": 60,
         "name": "victor",
-        "messageType":[
-            {
-                "cheked": false,
-                "item":"Broadcast"
-            },
-            {
-                "cheked": true,
-                "item":"Automatic"
-            },
-            {
-                "cheked": false,
-                "item":"Emergency"
-            }
-
-        ],
+        "messageType":"Automatic",
         "channel":[
             {
                 "cheked": false,

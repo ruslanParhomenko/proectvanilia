@@ -1,6 +1,4 @@
 
-
-
 export function listBroadcast () {
     const historySection = document.querySelector('#section-mesaging')
     const messagingUl = document.querySelector('.messaging-list')

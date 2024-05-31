@@ -1,23 +1,26 @@
-// import arrHistoryList from '../../history-list-arr.json'
-
+// import arrHistory from '../../history-list-arr.json'
 import { createTagId } from "./createTegId"
+import { sortMessageType } from './filter-json-list'
 
 
+export function historyListHtml ()  {
 
-
-export function historyListHtml (arrHistory,searchValue)  {
-
-    console.log(searchValue)
+    
 
     const totalItem = document.querySelector('.list-quantity')
     const htmlDivHistoryList = document.querySelector('.history-table-list-item')
     // const numPage = window.location.search.substring(1).split('=')[1]
     const paramts = new URLSearchParams(window.location.search)
     const numPage = paramts.get('page')
+    // const searchType = paramts.getAll('search-type')
+    let searchValue = ''
+    if (paramts.get('search')) {
+        searchValue = paramts.get('search')
+    }
 
-    const arrHistoryList = searchValue ? arrHistory.filter(item => item.name === searchValue) : arrHistory
 
-    console.log(arrHistoryList)
+
+    const arrHistoryList = searchValue ? sortMessageType().filter(item => item.name === searchValue) : sortMessageType()
 
     totalItem.innerText = `${arrHistoryList.length} Item(s) in Total`
     let item = 0
@@ -53,7 +56,7 @@ export function historyListHtml (arrHistory,searchValue)  {
     
         const liMessageType = createTagId('li','id','message-type')
         const spanMessage = createTagId('span') 
-        spanMessage.innerText = arrHistoryList[i].messageType.filter((item) => item.cheked)[0].item
+        spanMessage.innerText = arrHistoryList[i].messageType
         liMessageType.append(spanMessage)
         switch(spanMessage.innerText){
             case 'Automatic':{
@@ -99,10 +102,13 @@ export function historyListHtml (arrHistory,searchValue)  {
         buttonView.append(imgView)
         liViewSummary.append(buttonView)
         ul.append(liViewSummary)
+        // if (searchType.length > 0) {
+        //     if (!searchType.includes(arrHistory[i].messageType)){
+        //         ul.classList.add('filter-message-displaynon')
+        //     }
+        // }
     
         htmlDivHistoryList.append(ul)
     
     }
-
-
 }
