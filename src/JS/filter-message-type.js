@@ -17,6 +17,7 @@ export function filterMessageType () {
             const type = e.target.dataset.name
             console.log(type)
             if (!paramts.getAll('search-type').includes(type) && e.target.checked !== 'on' ) {
+                // console.log('on',e.target.value)
                 paramts.append('search-type',type)
                 inputChecked[e.target.dataset.name] = e.target.value
                 console.log(inputChecked)

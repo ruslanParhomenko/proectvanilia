@@ -11,16 +11,34 @@
                 <button>
                     <img src="/img/vector-back.svg" alt="">
                 </button>
-                <input type="data">
-                <button>
+                <input id="input-data" type="data">
+                <button >
                     <img src="/img/vector-forward.svg" alt="">
                 </button>
             </div>
             <div class="action-bar-search-filter">
                 <input id="search-list"  type="search" >
-                <button type="button">
+                <button data-btn-modal1="modal1" type="button">
                     <img src="/img/icon-filter.svg" alt="">
                 </button>
+                <div data-window-modal1="modal1" class="window-modal1">
+                    <div class="modal-block">
+
+                        <div class="modal-header">Filter View by Channel</div>
+                        <div class="modal-title">
+                            <div class="modal-checkbox">
+
+                                <li><input class="modal-checkbox" type="checkbox"><label for="">Phone Call</label></li>
+                                <li><input class="modal-checkbox" type="checkbox"><label for="">Text Message</label></li>
+                                <li><input class="modal-checkbox" type="checkbox"><label for="">Email</label></li>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn-cancel">Cancel</button>
+                                <button class="btn-apply">Apply</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="history-filteres">

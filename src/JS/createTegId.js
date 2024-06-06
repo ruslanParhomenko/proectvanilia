@@ -5,5 +5,8 @@
     if(atribut && text){
         teg.setAttribute(atribut,text)
     }
-    return teg
+    
+            return teg
 }
+
+

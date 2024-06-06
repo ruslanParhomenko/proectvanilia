@@ -32,7 +32,8 @@ export function pageHistoryList () {
     vectorPageForward.addEventListener('click',()=>vector(1))
     pagesDiv.addEventListener('click',(e)=>{
         const paramts = new URLSearchParams(window.location.search)
-        paramts.delete('id')
+        
+        // paramts.delete('id')
         switch(e.target.innerText){
             case '. ..':{
                 paramts.set('page',1)

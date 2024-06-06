@@ -71,7 +71,7 @@
         cursor:pointer;
     }
 
-    input {
+    #search-list, #input-data {
         border: 1px solid rgb(184, 192, 199);
         border-radius: 4px;
         background: rgb(255, 255, 255);
@@ -309,7 +309,7 @@
 }
 
 /* .filter-message-displaynon {
-    display:none !important;
+   display:none !important;
 } */
 
 
