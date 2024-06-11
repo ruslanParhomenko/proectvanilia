@@ -4,7 +4,7 @@
 export function filterMessageType () {
 
     const filterList = document.querySelectorAll('.history-filteres > li input')
-    console.log(filterList)
+    // console.log(filterList)
     const inputChecked = {}
     // console.log(inputChecked)
  
@@ -13,9 +13,9 @@ export function filterMessageType () {
         
 
             const paramts = new URLSearchParams(window.location.search)
-            console.log(paramts)
+            // console.log(paramts)
             const type = e.target.dataset.name
-            console.log(type)
+            // console.log(type)
             if (!paramts.getAll('search-type').includes(type) && e.target.checked !== 'on' ) {
                 // console.log('on',e.target.value)
                 paramts.append('search-type',type)
@@ -52,7 +52,7 @@ export function filterMessageType () {
     }))
     // let ls = JSON.parse(localStorage.getItem('input'))
     for (let i = 0; i < filterList.length; i++) {
-        console.log(filterList[i].dataset.name)
+        // console.log(filterList[i].dataset.name)
         if(localStorage.getItem(filterList[i].dataset.name)){
             filterList[i].checked = 'on'
         }

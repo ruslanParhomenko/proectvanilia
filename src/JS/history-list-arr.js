@@ -17,6 +17,7 @@ export function historyListHtml ()  {
     if (paramts.get('search')) {
         searchValue = paramts.get('search')
     }
+    
 
 
 
@@ -75,10 +76,11 @@ export function historyListHtml ()  {
         ul.append(liMessageType)
     
         const liChannel = createTagId('li','id','channel')
-        let src = arrHistoryList[i].channel.filter((item)=>item.cheked)
+        let src = arrHistoryList[i].channel
+        
         for(let s=0;s<src.length;s++){
             const imgChannel = document.createElement('img')
-            imgChannel.src = src[s].item
+            imgChannel.src = `/img/vector-`+ src[s] + `.svg`
             liChannel.append(imgChannel)
         }
         ul.append(liChannel)
