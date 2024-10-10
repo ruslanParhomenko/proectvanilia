@@ -1,0 +1,102 @@
+
+
+.window-modal1 {
+    display:none;
+    position:absolute;
+    z-index:1;
+    left:0;
+    top:0;
+    background-color: #00000080;
+    width:100%;
+    height:100vh;
+
+    .modal-block {
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        margin:15% auto;
+        background-color: #FFFFFF;
+        width:400px;
+        border-radius: 12px;
+
+
+        .modal-header {
+            border-radius:12px 12px 0 0;
+            background-color:#0F4CDB;
+            height: 56px;
+            padding:16px 24px;
+            
+            color: rgb(255, 255, 255);
+            font-family: Open Sans;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 24px;
+            letter-spacing: -1px;
+            
+        }
+
+
+        .modal-title {
+            height:264px;
+            padding:24px;
+            display:flex;
+            flex-direction:column;
+            justify-content:space-between;
+
+
+
+            .modal-checkbox li {
+                display:flex;
+                list-style-type:none;
+                justify-content:start;
+                align-items:center;
+
+                color: rgb(11, 34, 53);
+                font-family: Open Sans;
+                font-size: 14px;
+                line-height: 20px;
+                text-align: left;
+                margin:12px 0;
+
+                input {
+                    height:18px;
+                    width:18px;
+                    margin:0 8px;
+                }
+                label {
+                    cursor:pointer;
+                }
+
+                
+            }
+
+            .modal-footer {
+                display:flex;
+                justify-content:space-between;
+                padding:24px 0 0 0;
+                border-top: 1px solid rgb(184, 192, 199);
+
+
+                button {
+                    font-family: Open Sans;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 16px;
+                    text-align: center;
+                    border-radius: 8px;
+                    padding:12px 16px 12px 16px;
+
+                    
+                }
+                .btn-apply {
+                    color:#FFFFFF;
+                    background:#0F4CDB
+                }
+                .btn-cancel {
+                    color:#DB1B0F;
+                }
+            }
+        }
+
+    }
+}

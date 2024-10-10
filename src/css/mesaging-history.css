@@ -3,20 +3,18 @@
 }
 
 .mesaging-history-item {
-    /* box-sizing: border-box; */
+    display:none;
+
     position: absolute;
     width: 1111px;
-    height: 1200px;
     left: 289px;
     right: 0;
     top: 6px;
-    bottom: -14px;
     border-bottom: 1px solid rgb(184, 192, 199);
     border-left: 1px solid rgb(184, 192, 199);
     border-right: 1px solid rgb(184, 192, 199);
     border-radius: 12px 12px 0px 0px;
     background: rgb(255, 255, 255);
-    padding:0 0 12px 0;
 }
 
 .history-headline {
@@ -26,7 +24,7 @@
     border-radius: 12px 12px 0px 0px;
     background: rgb(15, 76, 219);
     
-
+    
     h1 {
         color: rgb(248, 250, 252);
         font-family: Open Sans;
@@ -43,7 +41,7 @@
     height: 56px;
     padding: 12px 12px 24px 12px;
     h1 {
-
+        
         color: rgb(11, 34, 53);
         font-family: Open Sans;
         font-size: 14px;
@@ -54,13 +52,13 @@
 }
 
 .history-action-bar {
-
-       width: 1111px;
-       height: 64px;
-       display: flex;
-       justify-content: space-between;
-       align-items: center;
-       padding: 0px 24px 24px 24px;
+    
+    width: 1111px;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 24px 24px 24px;
 }
 
 .action-bar-select-data,
@@ -73,8 +71,7 @@
         cursor:pointer;
     }
 
-    input {
-        /* box-sizing: border-box; */
+    #search-list, #input-data {
         border: 1px solid rgb(184, 192, 199);
         border-radius: 4px;
         background: rgb(255, 255, 255);
@@ -88,17 +85,16 @@
 }
 
 .history-filteres {
-        width: 1111px;
-        height: 64px;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        padding: 12px 24px 12px 24px;
-        /* box-sizing: border-box; */
-        border-top: 1px solid rgb(223, 227, 231);
-
-        li {
-            
+    width: 1111px;
+    height: 64px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 12px 24px 12px 24px;
+    border-top: 1px solid rgb(223, 227, 231);
+    
+    li, span  {
+        
             display:flex;
             align-items:center;
             color: rgb(11, 34, 53);
@@ -107,47 +103,44 @@
             font-weight: 600;
             line-height: 12px;
             margin: 0px 8px;
-
-            input {
+            
+            input  {
                 margin-right:8px;
                 width: 18px;
                 height: 18px;
+                text-align:center;
 
+            }
+            label {
+                cursor:pointer;
             }
         }
 
 }
 
 .history-table-list {
-    /* width: 1111px; */
-    height: 868px;
+    max-height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    /* align-items: flex-end; */
     padding: 0px;
     border-top: 1px solid rgb(184, 192, 199);
-    /* background: rgb(255, 255, 255); */
 }
 
     .list-quantity {
-        width: 149px;
+        
         height: 36px;
         padding: 8px 24px 8px 0px;
-        margin-left:auto;
-          h2 {
-               color: rgb(88, 99, 112);
-               font-family: Open Sans;
-               font-size: 14px;
-               font-weight: 400;
-               line-height: 20px;
-               letter-spacing: 0px;
-               text-align: center;
-               margin:0;
-            }
-    }
+        color: rgb(88, 99, 112);
+        font-family: Open Sans;
+        font-size: 14px;     
+        line-height: 24px;    
+        text-align: right;
+        margin:0;
+            
+        }
 
-
+        
 .history-table-header {
     ul {
     display: flex;
@@ -159,11 +152,10 @@
     padding: 12px 24px 12px 24px;
     margin:0;
 
-     li {
+    li {
         display:flex;
         align-items:center;
         span {
-            /* position:relative; */
             color: rgb(11, 34, 53);
             font-family: Open Sans;
             font-size: 16px;
@@ -172,24 +164,17 @@
             letter-spacing: 0px;
             text-align: left;
         }
-
+        
         img {
-           /* position: absolute; */
-           width: 15.15px;
+            width: 15.15px;
            height: 19.15px;
            margin-left:7px;
-           /* left: 55%;
-           top: 10.08%;
-           bottom: 10.13%; */
         }
         input {
             width:18px;
             height:18px;
         }
     }
-
-
-
     }
 }
 #checkbox {
@@ -200,12 +185,14 @@
     width:240px;
 }
 #message-type {
+    height:32px;
     width:140px;
     justify-content:center;
 }
 #channel {
     width:112px;
     justify-content:space-around;;
+    padding:0 10px;
 }
 #recipients {
     width:100px;
@@ -224,15 +211,15 @@
 }
 
 .history-table-list-item ul:nth-child(odd){
-
+    
     background: rgb(248, 250, 252);
 }
 .history-table-list-item ul:nth-child(even){
-
+    
     background: rgb(255, 255, 255);
 }
 .history-table-list-item ul {
-
+    
     width: 100%;
     height: 80px;
     display: flex;
@@ -240,7 +227,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 24px;
-    /* box-sizing: border-box; */
     border-bottom: 1px solid rgb(184, 192, 199);
     margin:0;
         
@@ -260,35 +246,71 @@
             line-height: 24px;
             text-align: left;
         }
-
+        
     }
     
 }
 
 .history-pages {
-    ul {
-        width: 100%;
-        height: 68px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:80px;
+    width:100%;
+    button {
+        width:32px;
+        height:32px;
+        background:transparent;
+        border:none;
+        cursor:pointer;
+    }
+    #list-page {
         display:flex;
         justify-content:center;
         align-items:center;
         padding: 24px 24px 12px 24px;
         margin:0;
-
-        li {
+        
+        button {
             display:inline-block;
-            button {
-                width:32px;
-                height:32px;
-                background:transparent;
-                border:none;
-                cursor:pointer;
+            width:32px;
+            height:32px;
+            background:transparent;
+            border:none;
+            cursor:pointer;
             }
         }
-        li:hover {
-            button {
-                background: rgb(248, 250, 252);
-            }
+        button:hover {
+            font-size:18px;
+            font-weight:700;   
         }
     }
+
+#vector-back,
+#vector-forward {
+    padding-top:10px;
 }
+
+
+.message-type-automatic {
+    border-radius: 4px;
+    background: #00C4B326;
+    cursor:pointer;
+}
+.message-type-emergency {
+    border-radius: 4px;
+    background: #FCD2CF;
+    cursor:pointer;
+}
+.message-type-broadcast {
+    border-radius: 4px;
+    background: #D4EBF7;
+    cursor:pointer;
+}
+
+/* .filter-message-displaynon {
+   display:none !important;
+} */
+
+
+
