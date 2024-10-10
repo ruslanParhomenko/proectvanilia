@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "name": "Sample Message Name Sample",
+        "name": "simion",
         "messageType":[
             {
                 "cheked": false,
@@ -32,13 +32,13 @@
             }
 
         ],
-        "recipients": "0000",
+        "recipients": "000000",
         "dateSent" : "Jan 01, 2024 12:00am",
         "viewSummary":"/img/vector-list-item.svg"
     },
     {
         "id": 2,
-        "name": "Sample Message Name Sample",
+        "name": "adrei",
         "messageType":[
             {
                 "cheked": false,
@@ -69,13 +69,13 @@
             }
 
         ],
-        "recipients": "0000",
+        "recipients": "000000",
         "dateSent" : "Jan 01, 2024 12:00am",
         "viewSummary":"/img/vector-list-item.svg"
     },
     {
         "id": 3,
-        "name": "Sample Message Name Sample",
+        "name": "ion",
         "messageType":[
             {
                 "cheked": false,
@@ -106,20 +106,20 @@
             }
 
         ],
-        "recipients": "0000",
+        "recipients": "000000",
         "dateSent" : "Jan 01, 2024 12:00am",
         "viewSummary":"/img/vector-list-item.svg"
     },
     {
         "id": 4,
-        "name": "Sample Message Name Sample",
+        "name": "vitea",
         "messageType":[
             {
-                "cheked": false,
+                "cheked": true,
                 "item":"Broadcast"
             },
             {
-                "cheked": true,
+                "cheked": false,
                 "item":"Automatic"
             },
             {
@@ -143,24 +143,24 @@
             }
 
         ],
-        "recipients": "0000",
+        "recipients": "000000",
         "dateSent" : "Jan 01, 2024 12:00am",
         "viewSummary":"/img/vector-list-item.svg"
     },
     {
         "id": 5,
-        "name": "Sample Message Name Sample",
+        "name": "jenea",
         "messageType":[
             {
                 "cheked": false,
                 "item":"Broadcast"
             },
             {
-                "cheked": true,
+                "cheked": false,
                 "item":"Automatic"
             },
             {
-                "cheked": false,
+                "cheked": true,
                 "item":"Emergency"
             }
 
@@ -180,13 +180,13 @@
             }
 
         ],
-        "recipients": "0000",
+        "recipients": "000000",
         "dateSent" : "Jan 01, 2024 12:00am",
         "viewSummary":"/img/vector-list-item.svg"
     },
     {
         "id": 6,
-        "name": "Sample Message Name Sample",
+        "name": "jenea",
         "messageType":[
             {
                 "cheked": false,
@@ -217,20 +217,20 @@
             }
 
         ],
-        "recipients": "0000",
+        "recipients": "000000",
         "dateSent" : "Jan 01, 2024 12:00am",
         "viewSummary":"/img/vector-list-item.svg"
     },
     {
         "id": 7,
-        "name": "Sample Message Name Sample",
+        "name": "jenea",
         "messageType":[
             {
-                "cheked": false,
+                "cheked": true,
                 "item":"Broadcast"
             },
             {
-                "cheked": true,
+                "cheked": false,
                 "item":"Automatic"
             },
             {
@@ -254,13 +254,13 @@
             }
 
         ],
-        "recipients": "0000",
+        "recipients": "000000",
         "dateSent" : "Jan 01, 2024 12:00am",
         "viewSummary":"/img/vector-list-item.svg"
     },
     {
         "id": 8,
-        "name": "Sample Message Name Sample",
+        "name": "oleg",
         "messageType":[
             {
                 "cheked": false,
@@ -291,24 +291,24 @@
             }
 
         ],
-        "recipients": "0000",
+        "recipients": "000000",
         "dateSent" : "Jan 01, 2024 12:00am",
         "viewSummary":"/img/vector-list-item.svg"
     },
     {
         "id": 9,
-        "name": "Sample Message Name Sample",
+        "name": "anna",
         "messageType":[
             {
                 "cheked": false,
                 "item":"Broadcast"
             },
             {
-                "cheked": true,
+                "cheked": false,
                 "item":"Automatic"
             },
             {
-                "cheked": false,
+                "cheked": true,
                 "item":"Emergency"
             }
 
@@ -328,20 +328,20 @@
             }
 
         ],
-        "recipients": "0000",
+        "recipients": "000000",
         "dateSent" : "Jan 01, 2024 12:00am",
         "viewSummary":"/img/vector-list-item.svg"
     },
     {
         "id": 10,
-        "name": "Sample Message Name Sample",
+        "name": "anna",
         "messageType":[
             {
-                "cheked": false,
+                "cheked": true,
                 "item":"Broadcast"
             },
             {
-                "cheked": true,
+                "cheked": false,
                 "item":"Automatic"
             },
             {
@@ -365,13 +365,13 @@
             }
 
         ],
-        "recipients": "0000",
+        "recipients": "000000",
         "dateSent" : "Jan 01, 2024 12:00am",
         "viewSummary":"/img/vector-list-item.svg"
     },
     {
         "id": 11,
-        "name": "Sample Message Name Sample",
+        "name": "anna",
         "messageType":[
             {
                 "cheked": false,
@@ -402,13 +402,13 @@
             }
 
         ],
-        "recipients": "0000",
+        "recipients": "000000",
         "dateSent" : "Jan 01, 2024 12:00am",
         "viewSummary":"/img/vector-list-item.svg"
     },
     {
         "id": 12,
-        "name": "Sample Message Name Sample",
+        "name": "anna",
         "messageType":[
             {
                 "cheked": false,
@@ -439,13 +439,13 @@
             }
 
         ],
-        "recipients": "0000",
+        "recipients": "000000",
         "dateSent" : "Jan 01, 2024 12:00am",
         "viewSummary":"/img/vector-list-item.svg"
     },
     {
         "id": 13,
-        "name": "Sample Message Name Sample",
+        "name": "anna",
         "messageType":[
             {
                 "cheked": false,
@@ -476,13 +476,13 @@
             }
 
         ],
-        "recipients": "0000",
+        "recipients": "000000",
         "dateSent" : "Jan 01, 2024 12:00am",
         "viewSummary":"/img/vector-list-item.svg"
     },
     {
         "id": 14,
-        "name": "Sample Message Name Sample",
+        "name": "anna",
         "messageType":[
             {
                 "cheked": false,
@@ -508,18 +508,18 @@
                 "item":"/img/vector-sms.svg"
             },
             {
-                "cheked": false,
+                "cheked": true,
                 "item":"/img/vector-mail.svg"
             }
 
         ],
-        "recipients": "0000",
+        "recipients": "000000",
         "dateSent" : "Jan 01, 2024 12:00am",
         "viewSummary":"/img/vector-list-item.svg"
     },
     {
         "id": 15,
-        "name": "Sample Message Name Sample",
+        "name": "annastasia",
         "messageType":[
             {
                 "cheked": false,
@@ -545,18 +545,18 @@
                 "item":"/img/vector-sms.svg"
             },
             {
-                "cheked": false,
+                "cheked": true,
                 "item":"/img/vector-mail.svg"
             }
 
         ],
-        "recipients": "0000",
+        "recipients": "000000",
         "dateSent" : "Jan 01, 2024 12:00am",
         "viewSummary":"/img/vector-list-item.svg"
     },
     {
         "id": 16,
-        "name": "Sample Message Name Sample",
+        "name": "annastasia",
         "messageType":[
             {
                 "cheked": false,
@@ -574,7 +574,7 @@
         ],
         "channel":[
             {
-                "cheked": false,
+                "cheked": true,
                 "item":"/img/vector-phone.svg"
             },
             {
@@ -582,29 +582,29 @@
                 "item":"/img/vector-sms.svg"
             },
             {
-                "cheked": false,
+                "cheked": true,
                 "item":"/img/vector-mail.svg"
             }
 
         ],
-        "recipients": "0000",
+        "recipients": "000000",
         "dateSent" : "Jan 01, 2024 12:00am",
         "viewSummary":"/img/vector-list-item.svg"
     },
     {
         "id": 17,
-        "name": "Sample Message Name Sample",
+        "name": "annastasia",
         "messageType":[
             {
                 "cheked": false,
                 "item":"Broadcast"
             },
             {
-                "cheked": true,
+                "cheked": false,
                 "item":"Automatic"
             },
             {
-                "cheked": false,
+                "cheked": true,
                 "item":"Emergency"
             }
 
@@ -624,20 +624,20 @@
             }
 
         ],
-        "recipients": "0000",
+        "recipients": "000000",
         "dateSent" : "Jan 01, 2024 12:00am",
         "viewSummary":"/img/vector-list-item.svg"
     },
     {
         "id": 18,
-        "name": "Sample Message Name Sample",
+        "name": "annastasia",
         "messageType":[
             {
-                "cheked": false,
+                "cheked": true,
                 "item":"Broadcast"
             },
             {
-                "cheked": true,
+                "cheked": false,
                 "item":"Automatic"
             },
             {
@@ -656,25 +656,25 @@
                 "item":"/img/vector-sms.svg"
             },
             {
-                "cheked": false,
+                "cheked": true,
                 "item":"/img/vector-mail.svg"
             }
 
         ],
-        "recipients": "0000",
+        "recipients": "000000",
         "dateSent" : "Jan 01, 2024 12:00am",
         "viewSummary":"/img/vector-list-item.svg"
     },
     {
         "id": 19,
-        "name": "Sample Message Name Sample",
+        "name": "annastasia",
         "messageType":[
             {
-                "cheked": false,
+                "cheked": true,
                 "item":"Broadcast"
             },
             {
-                "cheked": true,
+                "cheked": false,
                 "item":"Automatic"
             },
             {
@@ -685,7 +685,7 @@
         ],
         "channel":[
             {
-                "cheked": false,
+                "cheked": true,
                 "item":"/img/vector-phone.svg"
             },
             {
@@ -693,18 +693,18 @@
                 "item":"/img/vector-sms.svg"
             },
             {
-                "cheked": false,
+                "cheked": true,
                 "item":"/img/vector-mail.svg"
             }
 
         ],
-        "recipients": "0000",
+        "recipients": "000000",
         "dateSent" : "Jan 01, 2024 12:00am",
         "viewSummary":"/img/vector-list-item.svg"
     },
     {
         "id": 20,
-        "name": "Sample Message Name Sample",
+        "name": "annastasia",
         "messageType":[
             {
                 "cheked": false,
@@ -735,7 +735,1487 @@
             }
 
         ],
-        "recipients": "0000",
+        "recipients": "000000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 21,
+        "name": "annastasia",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": false,
+                "item":"Automatic"
+            },
+            {
+                "cheked": true,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": true,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "000000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 22,
+        "name": "annastasia",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": true,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "000000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 23,
+        "name": "annastasia",
+        "messageType":[
+            {
+                "cheked": true,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": false,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "000000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 24,
+        "name": "annastasia",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": false,
+                "item":"Automatic"
+            },
+            {
+                "cheked": true,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "000000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 25,
+        "name": "liza",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "000000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 26,
+        "name": "liza",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "000000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 27,
+        "name": "liza",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "000000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 28,
+        "name": "liza",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": true,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "000000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 29,
+        "name": "liza",
+        "messageType":[
+            {
+                "cheked": true,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": false,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "000000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 30,
+        "name": "liza",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "000000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 31,
+        "name": "liza",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "000000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 32,
+        "name": "liza",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "000000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 33,
+        "name": "caterina",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": false,
+                "item":"Automatic"
+            },
+            {
+                "cheked": true,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "000000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 34,
+        "name": "caterina",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": false,
+                "item":"Automatic"
+            },
+            {
+                "cheked": true,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "000000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 35,
+        "name": "caterina",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "000000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 36,
+        "name": "caterina",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "000000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 37,
+        "name": "caterina",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": false,
+                "item":"Automatic"
+            },
+            {
+                "cheked": true,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "000000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 38,
+        "name": "caterina",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "000000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 39,
+        "name": "caterina",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "000000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 40,
+        "name": "caterina",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "000000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 41,
+        "name": "caterina",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "000000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 42,
+        "name": "alex",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "000000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 43,
+        "name": "alex",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "000000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 44,
+        "name": "alex",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "000000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 45,
+        "name": "alex",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "000000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 46,
+        "name": "alex",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "000000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 47,
+        "name": "mihail",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "000000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 48,
+        "name": "mihail",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "000000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 49,
+        "name": "mihail",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "000000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 50,
+        "name": "mihail",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "000000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 51,
+        "name": "mihail",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "000000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 52,
+        "name": "mihail",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "000000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 53,
+        "name": "mihail",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "000000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 54,
+        "name": "mihail",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "000000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 55,
+        "name": "mihail",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "000000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 56,
+        "name": "mihail",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "000000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 57,
+        "name": "mihail",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "000000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 58,
+        "name": "ruslan",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "000000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 59,
+        "name": "ruslan",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "000000",
+        "dateSent" : "Jan 01, 2024 12:00am",
+        "viewSummary":"/img/vector-list-item.svg"
+    },
+    {
+        "id": 60,
+        "name": "victor",
+        "messageType":[
+            {
+                "cheked": false,
+                "item":"Broadcast"
+            },
+            {
+                "cheked": true,
+                "item":"Automatic"
+            },
+            {
+                "cheked": false,
+                "item":"Emergency"
+            }
+
+        ],
+        "channel":[
+            {
+                "cheked": false,
+                "item":"/img/vector-phone.svg"
+            },
+            {
+                "cheked": true,
+                "item":"/img/vector-sms.svg"
+            },
+            {
+                "cheked": false,
+                "item":"/img/vector-mail.svg"
+            }
+
+        ],
+        "recipients": "000000",
         "dateSent" : "Jan 01, 2024 12:00am",
         "viewSummary":"/img/vector-list-item.svg"
     }
