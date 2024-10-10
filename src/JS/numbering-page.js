@@ -8,6 +8,7 @@ let arrPages = []
 
 for(let i = 1;i<=finishList;i++){
     const buttonLi = createTagId('button','type','button')
+    // buttonLi.setAttribute('class','page-list-num')
     buttonLi.innerText = i
     arrPages.push(buttonLi)   
 }
@@ -17,9 +18,14 @@ function buttonStart (elTeg) {
     buttonStart.innerText = 1
     elTeg.append(buttonStart)
 }
-function buttonNon (elTeg) {
+function buttonNonSatrt (elTeg) {
     const buttonNon = createTagId('button','type','button')
-    buttonNon.innerText = '...'
+    buttonNon.innerText = '. ..'
+    elTeg.append(buttonNon)
+}
+function buttonNonFinish (elTeg) {
+    const buttonNon = createTagId('button','type','button')
+    buttonNon.innerText = '.. .'
     elTeg.append(buttonNon)
 }
 function buttonFinis (elTeg) {
@@ -33,21 +39,21 @@ export function numbering1 (elTeg) {
     for (let i = 0;i<5;i++){
         elTeg.append(arrPages[i])
     }
-    buttonNon(elTeg)
+    buttonNonFinish(elTeg)
     buttonFinis(elTeg)
 }
 export function numbering2 (elTeg) {
     buttonStart(elTeg)
-    buttonNon(elTeg)
+    buttonNonSatrt(elTeg)
     for (let i = (+finishList/2-2);i< (+finishList/2+2);i++){
         elTeg.append(arrPages[i])
     }
-    buttonNon(elTeg)
+    buttonNonFinish(elTeg)
     buttonFinis(elTeg)
 }
 export function numbering3 (elTeg) {
     buttonStart(elTeg)
-    buttonNon(elTeg)
+    buttonNonSatrt(elTeg)
     for (let i = (+finishList - 5);i<finishList;i++){
         elTeg.append(arrPages[i])
     }

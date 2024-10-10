@@ -1,14 +1,21 @@
-import arrHistoryList from '../../history-list-arr.json'
+// import arrHistoryList from '../../history-list-arr.json'
 
 import { createTagId } from "./createTegId"
 
 
-export function historyListHtml () {
-    const totalItem = document.querySelector('.list-quantity')
-    totalItem.innerText = `${arrHistoryList.length} Item(s) in Total`
-    const htmlDivHistoryList = document.querySelector('.history-table-list-item')
-    const numPage = window.location.search.substring(1).split('=')[1]
 
+
+export function historyListHtml (arrHistory,searchValue)  {
+
+    const totalItem = document.querySelector('.list-quantity')
+    const htmlDivHistoryList = document.querySelector('.history-table-list-item')
+    // const numPage = window.location.search.substring(1).split('=')[1]
+    const paramts = new URLSearchParams(window.location.search)
+    const numPage = paramts.get('page')
+
+    const arrHistoryList = searchValue ? arrHistory.filter(item => item.name === searchValue) : arrHistory
+
+    totalItem.innerText = `${arrHistoryList.length} Item(s) in Total`
     let item = 0
     let itemFinish = 5
     
@@ -24,6 +31,9 @@ export function historyListHtml () {
     itemFinish += itemStart
 
     for(let i = itemStart; i <= itemFinish; i++ ){
+        if (!arrHistoryList[i]) {
+            break
+        }
         const ul = createTagId('ul','data-history',arrHistoryList[i].id)
 
         const liCheckbox = createTagId('li','id','checkbox')
@@ -87,5 +97,8 @@ export function historyListHtml () {
         ul.append(liViewSummary)
     
         htmlDivHistoryList.append(ul)
+    
     }
+
+
 }

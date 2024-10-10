@@ -79,6 +79,8 @@
         background: rgb(255, 255, 255);
         width: 300px;
         height: 40px;
+        text-align:center;
+        font-size:18px;
     }
 }
 .action-bar-search-filter {
@@ -291,13 +293,17 @@
             background:transparent;
             border:none;
             cursor:pointer;
-            }
         }
+    
         button:hover {
             font-size:18px;
-            font-weight:700;   
+            font-weight:700;
         }
+        
     }
+    
+}
+
 
 #vector-back,
 #vector-forward {
